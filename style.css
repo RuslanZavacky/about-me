@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgba(242, 242, 242, .6);
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/*NAVBAR*/
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+  height: 100vh; /*height to 100% of view height*/
+  background: #0D99B7; /*background color to blue*/
+  margin-bottom: 0; /*no bottom margin*/
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron-text {
+  /*TAGLINE UNDER NAME*/
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron-text h1 {
+  /*YOUR NAME*/
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.jumbotron-text p {
+  margin: 0;
+  font-weight: 300;
+}
+
+/*SOCIAL LINKS*/
+.ul-social {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-social-links {
+  display: inline-block;
+  list-style: none;
+}
+
+.social {
+  font-size: 2em;
+  color: white;
+  padding: 20px;
+}
+
+.company-details {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.company-details a {
+  color: #FFF;
+  text-decoration: none;
+}
